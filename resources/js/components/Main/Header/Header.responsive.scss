@@ -1,0 +1,150 @@
+@media screen and (max-width:1368px){
+  #contact_link{
+    display: block;
+  }
+  #responsive_work{
+    display: block;
+  }
+  #work_large{
+    display: none;
+  }
+  #main_large{
+    width:33%
+  }
+  #faculties_container{
+    width: 33%;
+  }
+  #services_large{
+    width: 33%;
+  }
+  #contact_listitem{
+    height: 30%;
+  }
+  #news_listitem{
+    height: 30%;
+  }
+  #menu_list{
+     width: 750%;
+  }
+}
+
+@media screen and (max-width:1100px){
+   #nav_container{
+     width:65%;
+   }
+   #logo_box{
+     margin-right: 70px;
+   }
+   #header_content{
+    width: 90%;
+  } 
+  #menu_list{
+    width: 1100%;
+  } 
+}
+
+@media screen and (max-width:1000px){
+   #search_box{
+     width:250%;
+   }
+   #work_listitem{
+     height: 23%;
+   }
+   #contact_listitem{
+     height: 23%;
+   }
+   #news_listitem{
+     height: 23%;
+   }
+   #menu_list{
+     height: 350%;
+     width: 600%;
+   }
+   #responsive_menu_cont{
+     display: flex;
+   }
+}
+
+@media screen and (max-width:850px) {
+  #faculties_title{
+    font-size: 13px;
+  }
+  #services_title{
+    font-size: 13px;
+  }
+  #main_link{
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:780px){
+  #main_large{
+    display: none;
+  }
+  #faculties_container{
+    width: 50%;
+  }
+  #services_large{
+    width: 50%;
+  }
+  #header_content{
+    width: 100%;
+  }
+  #menu_list{
+    width: 425%;
+    left: -375%;
+  }
+}
+
+@media screen and (max-width:570px) {
+  #faculties_title{
+    font-size: 11px;
+  }
+  #services_title{
+    font-size: 11px;
+  }
+  #menu_list{
+    width: 500%;
+    left: -485%;
+  }
+  #faculties_list{
+    width: 200%;
+  }
+}
+
+@media screen and (max-width:500px) {
+   #nav_container{
+     display: none;
+   }
+   #work_listitem{
+    height: 12%;
+  }
+  #contact_listitem{
+    height: 12%;
+  }
+  #news_listitem{
+    height: 12%;
+  }
+  #faculties_responsive{
+    display: block;
+  }
+  #services_responsive{
+    display: block;
+  }
+  #menu_list{
+    width: 450%;
+    left: -400%;
+    height: 500%;
+  }
+  #grid_search{
+    opacity:1;
+  }
+}
+
+@media screen and (max-width:395px) {
+  #menu_list{
+    width: 560%;
+    left: -545%;
+    height: 600%;
+  }
+}

@@ -1,0 +1,22 @@
+@import "../../../styles/styles.scss";
+
+body{
+  height: 1500px;
+}
+
+#menu_container1:hover #menu_list{
+   opacity: 0.85;
+   z-index: 2;
+   display: block;
+}
+
+#faculties_container:hover #faculties_list{
+  opacity:0.85;
+  z-index: 2;
+  display: block;
+}
+
+#faculties_responsive:hover #faculties_list_responsive{
+  z-index: 2;
+  opacity: 1;
+}

@@ -1,0 +1,40 @@
+@media  screen and (max-width:600px) {
+    #title_container{
+        width: 32%;
+    }
+    #callWindow_content{
+        width: 90%;
+    }
+}
+
+@media  screen and (max-width:500px) {
+    #callWindow_sub_1{
+        width: 100%;
+    }
+    #callWindow_sub_2{
+        display: none;
+    }
+    #title_container{
+        width: 42%;
+    }
+    #callWindow{
+        height: 550px;
+        width: 400px;
+    }
+    #callWindow_content{
+        // width: %;
+    }
+}
+
+@media  screen and (max-width:420px) {
+    #title_container{
+        width: 50%;
+    }
+    #callWindow{
+        height: 550px;
+        width: 320px;
+    }
+    #callWindow_content{
+        // width: %;
+    }
+}
